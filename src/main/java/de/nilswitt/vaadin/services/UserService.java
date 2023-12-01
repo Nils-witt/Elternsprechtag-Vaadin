@@ -1,7 +1,7 @@
 package de.nilswitt.vaadin.services;
 
-import de.nilswitt.vaadin.data.User;
-import de.nilswitt.vaadin.data.UserRepository;
+import de.nilswitt.vaadin.data.entities.User;
+import de.nilswitt.vaadin.data.repositories.UserRepository;
 import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

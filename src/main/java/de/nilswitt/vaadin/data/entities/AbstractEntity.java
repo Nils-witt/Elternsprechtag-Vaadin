@@ -1,4 +1,4 @@
-package de.nilswitt.vaadin.data;
+package de.nilswitt.vaadin.data.entities;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

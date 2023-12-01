@@ -1,8 +1,8 @@
 package de.nilswitt.vaadin.security;
 
 import com.vaadin.flow.spring.security.AuthenticationContext;
-import de.nilswitt.vaadin.data.User;
-import de.nilswitt.vaadin.data.UserRepository;
+import de.nilswitt.vaadin.data.entities.User;
+import de.nilswitt.vaadin.data.repositories.UserRepository;
 import java.util.Optional;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;

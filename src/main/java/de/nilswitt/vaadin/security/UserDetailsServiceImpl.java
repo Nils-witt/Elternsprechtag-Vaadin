@@ -1,7 +1,7 @@
 package de.nilswitt.vaadin.security;
 
-import de.nilswitt.vaadin.data.User;
-import de.nilswitt.vaadin.data.UserRepository;
+import de.nilswitt.vaadin.data.entities.User;
+import de.nilswitt.vaadin.data.repositories.UserRepository;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.security.core.GrantedAuthority;

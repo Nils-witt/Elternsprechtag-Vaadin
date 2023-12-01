@@ -19,10 +19,10 @@ import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.server.StreamResource;
 import com.vaadin.flow.server.auth.AccessAnnotationChecker;
 import com.vaadin.flow.theme.lumo.LumoUtility;
-import de.nilswitt.vaadin.data.User;
+import de.nilswitt.vaadin.data.entities.User;
 import de.nilswitt.vaadin.security.AuthenticatedUser;
 import de.nilswitt.vaadin.views.about.AboutView;
-import de.nilswitt.vaadin.views.gridwithfilters.GridwithFiltersView;
+import de.nilswitt.vaadin.views.userslist.UserListView;
 import de.nilswitt.vaadin.views.helloworld.HelloWorldView;
 import java.io.ByteArrayInputStream;
 import java.util.Optional;
@@ -78,8 +78,8 @@ public class MainLayout extends AppLayout {
             nav.addItem(new SideNavItem("About", AboutView.class, LineAwesomeIcon.FILE.create()));
 
         }
-        if (accessChecker.hasAccess(GridwithFiltersView.class)) {
-            nav.addItem(new SideNavItem("Grid with Filters", GridwithFiltersView.class,
+        if (accessChecker.hasAccess(UserListView.class)) {
+            nav.addItem(new SideNavItem("Userlist", UserListView.class,
                     LineAwesomeIcon.FILTER_SOLID.create()));
 
         }
